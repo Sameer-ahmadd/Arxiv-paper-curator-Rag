@@ -1,0 +1,19 @@
+[project]
+name = "arxiv-paper-curator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.5"
+dependencies = [
+    "src",
+]
+
+[tool.uv.workspace]
+members = [
+    "src",
+    "noteboks",
+    "test",
+]
+
+[tool.uv.sources]
+src = { workspace = true }
