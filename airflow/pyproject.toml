@@ -1,0 +1,14 @@
+[project]
+name = "arirflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sameer-ahmadd", email = "samimughal7786@gmail.com" }
+]
+requires-python = ">=3.12.5"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
